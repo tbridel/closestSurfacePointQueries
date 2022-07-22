@@ -18,7 +18,7 @@
 
 #include "common.h"
 #include "constants.h"
-#include "math.h"
+#include "math_cspq.h"
 // #include <algorithm>
 
 namespace ospcommon {

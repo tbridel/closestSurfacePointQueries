@@ -22,7 +22,7 @@
 #ifndef _USE_MATH_DEFINES
 #  define _USE_MATH_DEFINES
 #endif
-#include <math.h> // using cmath causes issues under Windows
+#include <cmath> // using cmath causes issues under Windows
 #include <cfloat>
 
 namespace ospcommon

@@ -4,10 +4,10 @@ all: aosExample soaExample benchmark
 OPENMP=-openmp -DUSE_OPENMP=1
 
 #CXX=icpc
-#CXXFLAGS= -O3 -march=native -g -no-inline-max-total-size -inline-factor=1000 -DNDEBUG -restrict -std=c++11 -fPIC
+#CXXFLAGS= -O3 -g -no-inline-max-total-size -inline-factor=1000 -DNDEBUG -restrict -std=c++11 -fPIC
 
 CXX=g++
-CXXFLAGS= -O3 -march=native -DNDEBUG -std=c++11 -fPIC
+CXXFLAGS= -O3 -DNDEBUG -std=c++11 -fPIC
 
 # ${OPENMP}
 

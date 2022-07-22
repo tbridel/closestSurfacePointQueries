@@ -31,12 +31,8 @@ namespace std
 }
 #endif
 #endif
-#if !defined(__arm64__)
-# include <emmintrin.h>
-# include <xmmintrin.h>
-#else
+
 typedef float __m128 __attribute__((__vector_size__(16), __aligned__(16)));
-#endif
 
 namespace ospcommon
 {

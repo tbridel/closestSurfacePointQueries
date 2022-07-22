@@ -39,7 +39,7 @@ typedef int ssize_t;
 # include "unistd.h"
 #endif
 
-#include "math.h"
+#include "math_cspq.h"
 
 #include <stdint.h>
 
